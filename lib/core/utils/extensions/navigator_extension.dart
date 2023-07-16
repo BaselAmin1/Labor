@@ -1,13 +1,16 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
 
-extension NavigatorExtension on BuildContext {
-  void pushReplacementNamed(String screen){
-    Navigator.of(this).pushReplacementNamed(screen);
-  }
-   void pushNamed(String screen){
-    Navigator.of(this).pushNamed(screen);
-  }
-    void pop(String screen){
-    Navigator.of(this).pop(screen);
-  }
-}
+// extension NavigatorExtension on BuildContext {
+//   void pushReplacementNamed(String screen){
+//     Navigator.pushReplacementNamed(this,screen);
+//   }
+//    void pushNamed(String screen){
+//     Navigator.pushNamed(this,screen);
+//   }
+//     void pop(String screen){
+//     Navigator.pop(this,screen);
+//   }
+//     void push(Widget screen){
+//     Navigator.pop(this,screen);
+//   }
+// }

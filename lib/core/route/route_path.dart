@@ -1,4 +1,5 @@
 const splashScreen = '/splash_screen';
-const homeScreen = '/home_screen';
-const bookDetailsScreen = '/book_details_screen';
-const searchScreen = '/search_screen';
+const selectLocalScreen ='/select_local_screen';
+const boardingScreen = '/boarding_screen';
+const loginScreen = '/login_screen';
+const registerScreen = '/register_screen';

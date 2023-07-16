@@ -24,5 +24,12 @@ class Assets {
   /// Assets for imagesLogo
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";
+
+  /// Assets for imagesNotSelect
+  /// assets/images/not_select.svg
+  static const String imagesNotSelect = "assets/images/not_select.svg";
+
+  /// Assets for imagesSelected
+  /// assets/images/selected.svg
+  static const String imagesSelected = "assets/images/selected.svg";
 }
- 
