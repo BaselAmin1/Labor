@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:labor_app/Features/Splash/presentation/screens/splash_screen.dart';
+import 'package:labor_app/Features/auth/presentation/screens/forget_password_screen.dart';
+import 'package:labor_app/Features/auth/presentation/screens/login_screen.dart';
+import 'package:labor_app/Features/auth/presentation/screens/otp_screen.dart';
+import 'package:labor_app/Features/auth/presentation/screens/register_screen.dart';
 import 'package:labor_app/Features/boarding/presentation/screens/boarding_screen.dart';
-import 'package:labor_app/Features/home/presentation/screens/login_screen.dart';
-import 'package:labor_app/Features/home/presentation/screens/register_screen.dart';
 import 'package:labor_app/Features/select_local/business_logic/select_local_cubit/select_local_cubit.dart';
 import 'package:labor_app/Features/select_local/presentation/screens/select_local_screen.dart';
 import 'package:labor_app/core/route/route_path.dart';
@@ -36,9 +38,17 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
         );
-        case registerScreen:
+      case registerScreen:
         return MaterialPageRoute(
           builder: (_) => const RegisterScreen(),
+        );
+      case otpScreen:
+        return MaterialPageRoute(
+          builder: (_) => const OTPScreen(),
+        );
+      case forgetPasswordScreen:
+        return MaterialPageRoute(
+          builder: (_) => const ForgetPasswordScreen(),
         );
     }
     return null;

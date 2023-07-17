@@ -38,8 +38,6 @@ class _BoardingScreenBodyState extends State<BoardingScreenBody> {
   ];
 
   void submit() async {
-    print(isLast);
-    print('_________________________________');
     await CacheHelper.init();
     CacheHelper.saveData(
       key: 'onBoarding',

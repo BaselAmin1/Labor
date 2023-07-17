@@ -18,7 +18,7 @@ class _SplashScreenbodyState extends State<SplashScreenbody> {
     super.initState();
     navigateToHome(context);
   }
-  bool isOnBoarding = CacheHelper.getData(key: 'onBoarding') ?? true;
+  bool isOnBoarding = CacheHelper.getData(key: 'onBoarding')??true;
 
   @override
   Widget build(BuildContext context) {

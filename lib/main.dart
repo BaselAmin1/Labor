@@ -14,7 +14,6 @@ void main() async {
   await EasyLocalization.ensureInitialized();
   await CacheHelper.init();
   Bloc.observer = MyBlocObserver();
-  CacheHelper.saveData(key: 'onBoarding', value: true);
   runApp(
     EasyLocalization(
       saveLocale: true,

@@ -12,5 +12,22 @@
     "boardingTitle3":"نجمع كل احتيجاتك",
     "boardingDescreption1":"ابحث عن كل احتياجات منزلك في مكان واحد. نحن نقدم كل الخدمات لجعل تجربة منزلك سلسة.",
     "boardingDescreption2":"لدينا أفضل الأفراد في مجالهم يعملون من أجلك فقط. إنهم مدربون جيدًا وقادرون على التعامل مع أي شيء تحتاجه.",
-    "boardingDescreption3":"لدينا جميع الخدمات المنزلية كل ما تحتاجة بشكل يومي وسهولةالاستخدام"
+    "boardingDescreption3":"لدينا جميع الخدمات المنزلية كل ما تحتاجة بشكل يومي وسهولةالاستخدام",
+    "Login": "تسجيل الدخول",
+    "PleaseEnteryourPhoneandpasswordtocontinue": "برجاء ادخال رقم الهاتف ورقم المرور للدخول",
+    "Phone": "رقم الجوال",
+    "Password": "رقم المرور",
+    "ForgetPassword": "نسيت رقم المرور ؟",
+    "Facebook": "فيس بوك",
+    "Google": "جوجل",
+    "DontHaveAccount": "ليس لديك حساب ؟",
+    "SignUp": "تسجيل جديد",
+    "Enter Your Phone": "ادخل رقم الهاتف",
+    "EnterYourPassword": "ادخل رقم المرور",
+    "OR": "او",
+    "Register": "تسجيل",
+    "FullName": "الاسم بالكامل",
+    "HaveAccount": "لديك حساب ؟",
+    "Signin": "تسجيل الدخول",
+    "EnterYourName":  "ادخل الاسم"
 }

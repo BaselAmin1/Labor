@@ -13,6 +13,10 @@ class Assets {
   /// assets/images/boarding_3.svg
   static const String imagesBoarding3 = "assets/images/boarding_3.svg";
 
+  /// Assets for imagesEye
+  /// assets/images/eye.svg
+  static const String imagesEye = "assets/images/eye.svg";
+
   /// Assets for imagesFacebook
   /// assets/images/facebook.svg
   static const String imagesFacebook = "assets/images/facebook.svg";
@@ -28,6 +32,10 @@ class Assets {
   /// Assets for imagesNotSelect
   /// assets/images/not_select.svg
   static const String imagesNotSelect = "assets/images/not_select.svg";
+
+  /// Assets for imagesPhone
+  /// assets/images/phone.svg
+  static const String imagesPhone = "assets/images/phone.svg";
 
   /// Assets for imagesSelected
   /// assets/images/selected.svg
