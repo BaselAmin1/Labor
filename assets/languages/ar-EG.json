@@ -17,7 +17,7 @@
     "PleaseEnteryourPhoneandpasswordtocontinue": "برجاء ادخال رقم الهاتف ورقم المرور للدخول",
     "Phone": "رقم الجوال",
     "Password": "رقم المرور",
-    "ForgetPassword": "نسيت رقم المرور ؟",
+    "ForgetPassword?": "نسيت رقم المرور ؟",
     "Facebook": "فيس بوك",
     "Google": "جوجل",
     "DontHaveAccount": "ليس لديك حساب ؟",
@@ -29,5 +29,12 @@
     "FullName": "الاسم بالكامل",
     "HaveAccount": "لديك حساب ؟",
     "Signin": "تسجيل الدخول",
-    "EnterYourName":  "ادخل الاسم"
+    "EnterYourName":  "ادخل الاسم",
+    "Otp": "رمز الدخول",
+    "AnAuthentecationcodehasbeensentto": "رمز التحقيق تم ارسالة الي رقم",
+    "Submit": "ارسال",
+    "CodeSent": "سيتم ارسال الكود مرة اخري",
+    "ForgetPassword": "نسيت كلمة المرور",
+    "EnteryourPhoneNumbertoresetpassword": "برجاء ادخال رقم الهاتف لتاكيد حسابك",
+    "ResetPassword": "Reset Password"
 }
