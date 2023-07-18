@@ -10,6 +10,8 @@ class CustomTextFeild extends StatelessWidget {
      this.isPassword=false,
      this.suffixIcon,
     this.suffixPressed,
+    this.keyboardType,
+    this.controller
   });
   TextEditingController? controller;
   dynamic label;

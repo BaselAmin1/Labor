@@ -62,7 +62,7 @@ class _BoardingScreenBodyState extends State<BoardingScreenBody> {
                 children: [
                   TextButton(
                     onPressed: () => submit(),
-                    child: Text("Skip",
+                    child: Text('Skip'.tr(),
                         style: Styles.textStyle18
                             .copyWith(color: const Color(0xffF5DF99))),
                   ),

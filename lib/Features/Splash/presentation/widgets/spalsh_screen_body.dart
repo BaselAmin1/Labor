@@ -4,13 +4,16 @@ import 'package:labor_app/constants.dart';
 import 'package:labor_app/core/route/route_path.dart';
 import 'package:labor_app/core/utils/assets.dart';
 import 'package:labor_app/core/utils/cache_helper.dart';
+import 'package:labor_app/main.dart';
 
 class SplashScreenbody extends StatefulWidget {
-  const SplashScreenbody({super.key});
+   const SplashScreenbody({super.key,});
 
   @override
   State<SplashScreenbody> createState() => _SplashScreenbodyState();
 }
+
+
 
 class _SplashScreenbodyState extends State<SplashScreenbody> {
   @override
@@ -19,6 +22,8 @@ class _SplashScreenbodyState extends State<SplashScreenbody> {
     navigateToHome(context);
   }
   bool isOnBoarding = CacheHelper.getData(key: 'onBoarding')??true;
+  
+
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +43,9 @@ class _SplashScreenbodyState extends State<SplashScreenbody> {
   void navigateToHome(context) {
     Future.delayed(const Duration(seconds: 3), () {
       isOnBoarding?
-      Navigator.pushReplacementNamed(context, selectLocalScreen):Navigator.pushReplacementNamed(context, loginScreen);
+      Navigator.pushReplacementNamed(context, selectLocalScreen):
+      
+      Navigator.pushReplacementNamed(context, initialRoute);
     });
   }
 }
