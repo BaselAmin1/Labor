@@ -39,5 +39,9 @@
     "CodeSent": "سيتم ارسال الكود مرة اخري",
     "ForgetPassword": "نسيت كلمة المرور",
     "EnteryourPhoneNumbertoresetpassword": "برجاء ادخال رقم الهاتف لتاكيد حسابك",
-    "ResetPassword": "Reset Password"
+    "ResetPassword": "Reset Password",
+    "Home": "الرئيسيه",
+    "History": "السجل",
+    "Categories": "الاصناف",
+    "Profile": "الملف الشخصي"
 }

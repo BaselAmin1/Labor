@@ -28,7 +28,7 @@ class LoginScreenBody extends StatelessWidget {
     return BlocConsumer<LoginCubit, LoginState>(
       listener: (context, state) {
         if (state is LoginSuccess) {
-          Navigator.pushReplacementNamed(context, registerScreen);
+          Navigator.pushReplacementNamed(context, mainLayoutScreen);
         }
       },
       builder: (context, state) {

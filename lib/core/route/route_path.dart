@@ -5,4 +5,6 @@ const loginScreen = '/login_screen';
 const registerScreen = '/register_screen';
 const otpScreen = '/otp_screen';
 const forgetPasswordScreen = '/forget_password_screen';
+const mainLayoutScreen = '/main_layout_screen';
+
 

@@ -9,17 +9,20 @@ import 'package:labor_app/Features/auth/presentation/screens/login_screen.dart';
 import 'package:labor_app/Features/auth/presentation/screens/otp_screen.dart';
 import 'package:labor_app/Features/auth/presentation/screens/register_screen.dart';
 import 'package:labor_app/Features/boarding/presentation/screens/boarding_screen.dart';
+import 'package:labor_app/Features/home/business_logic/main_layout_cubit/main_layout_cubit.dart';
+import 'package:labor_app/Features/home/presentation/screens/main_layout_screen.dart';
 import 'package:labor_app/Features/select_local/business_logic/select_local_cubit/select_local_cubit.dart';
 import 'package:labor_app/Features/select_local/presentation/screens/select_local_screen.dart';
 import 'package:labor_app/core/route/route_path.dart';
 
 class AppRouter {
   Route? generateRoute(RouteSettings settings) {
-
     SelectLocalCubit selectLocalCubit = SelectLocalCubit();
     RegisterCubit registerCubit = RegisterCubit();
     SaveUserCubit saveUserCubit = SaveUserCubit();
     LoginCubit loginCubit = LoginCubit();
+      MainLayoutCubit mainLayoutCubit=MainLayoutCubit();
+
 
     AppRouter();
 
@@ -45,7 +48,9 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => BlocProvider<LoginCubit>.value(
             value: loginCubit,
-            child: LoginScreen(loginCubit: loginCubit,),
+            child: LoginScreen(
+              loginCubit: loginCubit,
+            ),
           ),
         );
       case registerScreen:
@@ -77,6 +82,13 @@ class AppRouter {
           builder: (_) => BlocProvider<RegisterCubit>.value(
             value: registerCubit,
             child: ForgetPasswordScreen(),
+          ),
+        );
+      case mainLayoutScreen:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider<MainLayoutCubit>.value(
+            value: mainLayoutCubit,
+            child: MainLayoutScreen(mainLayoutCubit: mainLayoutCubit,),
           ),
         );
     }

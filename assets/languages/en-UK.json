@@ -39,6 +39,10 @@
     "CodeSent": "Code Sent. Resend Code in ",
     "ForgetPassword": "Forget Password",
     "EnteryourPhoneNumbertoresetpassword": "Enter your Phone Number to reset password.",
-    "ResetPassword": "ارسال"
+    "ResetPassword": "ارسال",
+    "Home": "Home",
+    "History": "History",
+    "Categories": "Categories",
+    "Profile": "Profile"
     
 }

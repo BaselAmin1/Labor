@@ -23,7 +23,7 @@ void main() async {
     if (user == null) {
       initialRoute = loginScreen;
     } else {
-      initialRoute = selectLocalScreen;
+      initialRoute = mainLayoutScreen;
     }
   });
   await EasyLocalization.ensureInitialized();
