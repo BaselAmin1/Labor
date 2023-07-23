@@ -21,7 +21,7 @@ class AppRouter {
     RegisterCubit registerCubit = RegisterCubit();
     SaveUserCubit saveUserCubit = SaveUserCubit();
     LoginCubit loginCubit = LoginCubit();
-      MainLayoutCubit mainLayoutCubit=MainLayoutCubit();
+    MainLayoutCubit mainLayoutCubit=MainLayoutCubit();
 
 
     AppRouter();

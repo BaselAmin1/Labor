@@ -1,12 +1,40 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:labor_app/Features/home/Data/models/categories_model.dart';
+import 'package:labor_app/core/utils/assets.dart';
 import 'package:labor_app/core/utils/extensions/media_query_extension.dart';
 import 'package:labor_app/core/utils/styles.dart';
 
 class CategorieItem extends StatelessWidget {
-  CategorieItem({super.key, required this.model});
-  late CategoriesModel model;
+  CategorieItem({super.key, required this.index});
+  late int index;
+    List<CategoriesModel> categorie = [
+    CategoriesModel(
+      image: Assets.imagesHourlyCleaning,
+      title: 'hourlyCleaning'.tr(),
+    ),
+    CategoriesModel(
+      image: Assets.imagesContractCleaning,
+      title: 'contractCleaning'.tr(),
+    ),
+    CategoriesModel(
+      image: Assets.imagesElectrical,
+      title: 'electrical'.tr(),
+    ),
+    CategoriesModel(
+      image: Assets.imagesCarWash,
+      title: 'carWach'.tr(),
+    ),
+    CategoriesModel(
+      image: Assets.imagesConditioning,
+      title: 'conditioning'.tr(),
+    ),
+    CategoriesModel(
+      image: Assets.imagesPlumbing,
+      title: 'plumbing'.tr(),
+    ),
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -26,12 +54,12 @@ class CategorieItem extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SvgPicture.asset(model.image),
+          SvgPicture.asset(categorie[index].image),
           SizedBox(
             height: context.height / 50,
           ),
           Text(
-            model.title,
+          categorie[index].title,
             style: Styles.textStyle18,
           )
         ],
