@@ -3,6 +3,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:labor_app/Features/home/presentation/screens/home_screen.dart';
 import 'package:labor_app/demo_screen.dart';
 
 part 'main_layout_state.dart';
@@ -43,13 +44,13 @@ class MainLayoutCubit extends Cubit<MainLayoutState> {
     ),
   ];
 
-  void ChangeBottomNavBar(index) {
+  void changeBottomNavBar(index) {
     currentIndex = index;
     emit(AppBottomNavState(currentIndex));
   }
 
-  List<Widget> Screens = [
-    const DemoScreen(),
+  List<Widget> screens = [
+    const HomeScreen(),
     const DemoScreen(),
     const DemoScreen(),
     const DemoScreen(),

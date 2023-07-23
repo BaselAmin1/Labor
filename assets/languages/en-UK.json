@@ -43,6 +43,19 @@
     "Home": "Home",
     "History": "History",
     "Categories": "Categories",
-    "Profile": "Profile"
+    "Profile": "Profile",
+    "LABOR":"LABOR",
+    "GoodMorning":"good morning",
+    "FindyourhomeserviceN":"Find your home service Need a helping hand today?",
+    "yourlocation": "your location",
+    "Banner1":"All you need in one place",
+    "Our services": "Our services",
+    "SeeALL": "See ALL",
+    "hourlyCleaning": "hourly cleaning",
+    "contractCleaning": "contract cleaning",
+    "electrical":"electrical",
+    "carWash": "car wash",
+    "conditioning": "conditioning",
+    "plumbing": "plumbing"
     
 }

@@ -13,18 +13,20 @@ class MainLayoutScreenBody extends StatelessWidget {
         // TODO: implement listener
       },
       builder: (context, state) {
-        return Scaffold(
-          body: mainLayoutCubit.Screens[mainLayoutCubit.currentIndex],
-          bottomNavigationBar: BottomNavigationBar(
-            currentIndex: state is AppBottomNavState ? state.currentIndex : 0,
-            onTap: (index) {
-              mainLayoutCubit.ChangeBottomNavBar(index);
-            },
-            showSelectedLabels: true,
-            showUnselectedLabels: true,
-            selectedItemColor: Colors.black,
-            unselectedItemColor: Colors.grey,
-            items: mainLayoutCubit.bottomItems,
+        return SafeArea(
+          child: Scaffold(
+            body: mainLayoutCubit.screens[mainLayoutCubit.currentIndex],
+            bottomNavigationBar: BottomNavigationBar(
+              currentIndex: state is AppBottomNavState ? state.currentIndex : 0,
+              onTap: (index) {
+                mainLayoutCubit.changeBottomNavBar(index);
+              },
+              showSelectedLabels: true,
+              showUnselectedLabels: true,
+              selectedItemColor: Colors.black,
+              unselectedItemColor: Colors.grey,
+              items: mainLayoutCubit.bottomItems,
+            ),
           ),
         );
       },
